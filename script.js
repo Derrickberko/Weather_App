@@ -20,12 +20,10 @@ function displayWeather(information){
  //used an if statement to check if the data is empty if it is put in an error if not do the following steps
  if(information.data && information.data.length > 0){
   let degreeCel = information.data[0].temp
-  let fahrenheitTemp = degreeCel * 9/5 + 32
 
   weatherInfo.innerHTML = `
   <h1>${information.data[0].city_name}, ${information.data[0].country_code}</h1>
   <p>Temperature in Degrees: ${degreeCel}°C </p>
-  <p>Temperature in Fahrenheit:  ${fahrenheitTemp}°F</p>
   <p>Weather Description: ${information.data[0].weather.description}</p>
 `;
 } else {
