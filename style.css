@@ -1,0 +1,57 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #7a5050;
+
+}
+
+.container {
+  text-align: center;
+  background-color: #caacac;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1{
+  margin-bottom: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#3d3a3a
+}
+
+button{
+ margin-bottom: 20px;
+}
+
+
+input[type="text"] {
+  padding: 8px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+
+#weatherInfo {
+  margin-bottom: 20px;
+}
+
+#weatherInfo h2{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+#weather-info p {
+  color: #221d1d; 
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100px;
+  
+}
